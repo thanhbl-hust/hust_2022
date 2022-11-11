@@ -109,4 +109,15 @@ ALTER TABLE dbo.TRANDAU ADD FOREIGN KEY(MACLB1) REFERENCES dbo.CAULACBO(MACLB)
 ALTER TABLE dbo.TRANDAU ADD FOREIGN KEY(MACLB2) REFERENCES dbo.CAULACBO(MACLB)
 ALTER TABLE dbo.BANGXH ADD FOREIGN KEY(MACLB) REFERENCES dbo.CAULACBO(MACLB)
 
+--Thu tu nhap lieu(nhap nhung bang nao khong co chia vang di ra): 
+  --1. SANVD(khong co khoa ngoai)
+  --2. TINH(khong co khoa ngoai)
+  --3. QUOCGIA(khong co khoa ngoai)
+  --4. HUANLUYENVIEN(co khoa ngoai la MAQG - da nhap o muc 3. QUOCGIA)
+  --5. CAULACBO(co khoa ngoai MATINH, MASAN da nhap o muc 2. va 1.)
+  --6. TRANDAU(da nhap CAULACBO va SANVD)
+  --7. CAUTHU
+  --8. BANGXEPHANG
+  --9. HLV_CLB.
+
 
