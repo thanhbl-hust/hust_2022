@@ -4,10 +4,10 @@ using namespace std;
 
 int main(){
 	
-	cout << "Ho va ten: Bui Lam Thanh" << endl;
-	cout << "MSSV: 20204606" << endl;
-    cout << "Phan 1: Thuc hanh ve con tro" << endl;
-	cout << "----------1.1----------" << endl;
+	//cout << "Ho va ten: Bui Lam Thanh" << endl;
+	//cout << "MSSV: 20204606" << endl;
+    //cout << "Phan 1: Thuc hanh ve con tro" << endl;
+	//cout << "----------1.1----------" << endl;
 	int a, b, c; //declare 3 numbers;
 	
 	cout << "a, b, c = ";
